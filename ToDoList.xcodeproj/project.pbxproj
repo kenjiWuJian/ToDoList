@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA0CFADB26A6B60F00F11C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CFADA26A6B60F00F11C7B /* AppDelegate.swift */; };
 		BA0CFADD26A6B60F00F11C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CFADC26A6B60F00F11C7B /* SceneDelegate.swift */; };
-		BA0CFADF26A6B60F00F11C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CFADE26A6B60F00F11C7B /* ViewController.swift */; };
+		BA0CFADF26A6B60F00F11C7B /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CFADE26A6B60F00F11C7B /* ItemsViewController.swift */; };
 		BA0CFAE226A6B60F00F11C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0CFAE026A6B60F00F11C7B /* Main.storyboard */; };
 		BA0CFAE526A6B60F00F11C7B /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0CFAE326A6B60F00F11C7B /* ToDoList.xcdatamodeld */; };
 		BA0CFAE726A6B61400F11C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0CFAE626A6B61400F11C7B /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		BA0CFAD726A6B60F00F11C7B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0CFADA26A6B60F00F11C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0CFADC26A6B60F00F11C7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA0CFADE26A6B60F00F11C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA0CFADE26A6B60F00F11C7B /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		BA0CFAE126A6B60F00F11C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA0CFAE426A6B60F00F11C7B /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		BA0CFAE626A6B61400F11C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,14 +60,38 @@
 			children = (
 				BA0CFADA26A6B60F00F11C7B /* AppDelegate.swift */,
 				BA0CFADC26A6B60F00F11C7B /* SceneDelegate.swift */,
-				BA0CFADE26A6B60F00F11C7B /* ViewController.swift */,
-				BA0CFAE026A6B60F00F11C7B /* Main.storyboard */,
+				BA0CFAFC26A6BEF800F11C7B /* Models */,
+				BA0CFAFB26A6BEEA00F11C7B /* Views */,
+				BA0CFAFA26A6BEA000F11C7B /* Controllers */,
 				BA0CFAE626A6B61400F11C7B /* Assets.xcassets */,
 				BA0CFAE826A6B61400F11C7B /* LaunchScreen.storyboard */,
 				BA0CFAEB26A6B61400F11C7B /* Info.plist */,
-				BA0CFAE326A6B60F00F11C7B /* ToDoList.xcdatamodeld */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		BA0CFAFA26A6BEA000F11C7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA0CFADE26A6B60F00F11C7B /* ItemsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA0CFAFB26A6BEEA00F11C7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA0CFAE026A6B60F00F11C7B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA0CFAFC26A6BEF800F11C7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA0CFAE326A6B60F00F11C7B /* ToDoList.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0CFADF26A6B60F00F11C7B /* ViewController.swift in Sources */,
+				BA0CFADF26A6B60F00F11C7B /* ItemsViewController.swift in Sources */,
 				BA0CFADB26A6B60F00F11C7B /* AppDelegate.swift in Sources */,
 				BA0CFADD26A6B60F00F11C7B /* SceneDelegate.swift in Sources */,
 				BA0CFAE526A6B60F00F11C7B /* ToDoList.xcdatamodeld in Sources */,
